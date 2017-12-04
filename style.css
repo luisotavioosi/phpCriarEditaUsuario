@@ -1,0 +1,17 @@
+p {
+	color: blue;
+	font-family: "Calibri";
+	font-size: 100%;
+}
+body{
+
+	background: #1E90FF;
+}
+div{
+	background: #FFFFFF;
+	text-align: center;
+}
+span{
+	text-align: center;
+	color: white;
+}

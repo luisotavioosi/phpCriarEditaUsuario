@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tela Principal</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div>
+		<p>Plataforma de Cadastro de Usuários</p>
+
+	</div>
+	<span>
+		<form method="post" action="cadastro.php">
+			Nome: <input type="text" name="nome" placeholder="Seu nome" required><br /><br />
+			E-mail: <input type="email" name="email" placeholder="exemple@exemple.com" required><br /><br />
+			Senha: <input type="password" name="senha" placeholder="**********" required> <br /> <br />
+			Masculino <input type="radio" name="sexo" checked value="Masculino"> Feminino <input type="radio" name="sexo" value="Feminino"> <br /><br />
+
+			Cidade: <select name=cidade>
+						<option value="0">Escolha uma opção</option>
+						<option value="Parnaiba"> Parnaíba</option>
+						<option value="Teresina"> Teresina</option>
+						<option value="Picos"> Picos</option>
+						<option value="Piracuruca"> Piracuruca</option>
+					</select><br /> <br />
+
+			Deficiência <input type="checkbox" name="temDeficiencia" value="Sim"><br>
+			<input type="submit" value="Cadastrar">
+			<input type="reset" name="reset" value="Apagar tudo"><br />
+
+		</form><br/> <br />
+		<form action="listar.php">
+			<input type="submit" value="Listar Cadastros">
+		</form>
+	</span>
+	<br>
+	
+</body>
+</html>
