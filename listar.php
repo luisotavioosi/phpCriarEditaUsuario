@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Estoque</title>
+	<title>Usuarios Cadastrados</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
