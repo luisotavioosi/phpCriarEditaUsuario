@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Produtos</title>
-</head>
-<body>
-	<head>
-		<h1>Estoque</h1>
-	</head>
+
 	<?php
 		include_once('conn.php');
 		$nome = $_POST['nome'];
